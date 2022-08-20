@@ -20,7 +20,7 @@ pipeline {
 
         stage ("Code pull"){
             steps{
-                checkout scm
+                  git 'https://github.com/Abhishek226-ii/jenkins-python-test'
             }
         }
 
