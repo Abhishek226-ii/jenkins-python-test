@@ -10,9 +10,7 @@ pipeline {
         timestamps()
     }
 
-    environment {
-      PATH="/var/lib/jenkins/anaconda3/bin:$PATH"
-    }
+    
 
     stages {
 
